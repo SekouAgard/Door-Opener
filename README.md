@@ -13,11 +13,8 @@ Now to put together the two factor authentication. When connecting the wires sau
 
 Now time to connect the arduino uno to the L298N motor driver. You will attach a wire from ground on the arduino to the ground on the motor driver first. Then input 9 will be IN2 while input 8 will be IN1. Run these wires to the corresponding IN1 and IN2 on the motor driver. You will then also have another battery pack to power the arduino. With that everything should be connected and all thats left is to upload the code.
 
-You will want to download the arduino IDE and open the FINGERPRINT_WITH_SERVO code. Next download the necessary libraries such as adafruit fingerprint sensor, adafruit liquid crystal I2C, Keypad and RF24. You can find the RF24 library linked down below. You will then upload that code to the arduino and your door opener should be ready to go. Check to make sure all wires are connected, not broken, motor is stuck in place and that everything is operating corrrectly.
+You will want to download the arduino IDE and open the FINGERPRINT_WITH_SERVO code. Next download the necessary libraries such as adafruit fingerprint sensor, adafruit liquid crystal I2C and Keypad. You will then upload that code to the arduino and your door opener should be ready to go. Check to make sure all wires are connected, not broken, motor is stuck in place and that everything is operating corrrectly.
 
-
-RF24 Library
-https://github.com/nRF24/RF24.git
 
 Materials
 Arduino Uno: https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU?pd_rd_w=uHBCD&content-id=amzn1.sym.d3245d74-f79b-49f3-b99c-1e231bb8ca7c&pf_rd_p=d3245d74-f79b-49f3-b99c-1e231bb8ca7c&pf_rd_r=EQQZ30FES1N7RXBWGESE&pd_rd_wg=6mjU1&pd_rd_r=abb9955b-90aa-4816-838a-028d2ca6d37b&pd_rd_i=B01EWOE0UU&psc=1&ref_=pd_bap_m_grid_dv_rp_0_2_t
