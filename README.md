@@ -1,5 +1,4 @@
 # Door-Opener
-https://github.com/nRF24/RF24.git
 When trying to re-create this project you first want to order the items listed below. You will also need to buy wires. While they are arriving go ahead and 3D print the files in the 
 DoorOpener.f3d v8.stl. Once the materials have arrived and the parts have been printed your going to attach the gear onto the dc motor and insert the gear rack into the base. Next add put the part that 
 pushes the door handle in between the two small holes and push the small rode into them. In terms of how to get the motor to stay on the base you can either use duck tape, glue, or find a way to screw it
